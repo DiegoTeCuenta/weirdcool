@@ -3,26 +3,27 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>WeirdCool Prompt Generator</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="theme-toggle" onclick="toggleTheme()">🌙/☀️</div>
-  <main>
-    <h1>🎲 WeirdCool Prompt Generator</h1>
-    <p>
-      Genera frases aleatorias para fotografía surrealista y cool, combinando personajes extraños, acciones absurdas y locaciones inusuales, ideal para imágenes de estilo análogo.
-    </p>
-    <p>
-      <a>Generates random surreal and cool photography prompts combining bizarre characters, odd actions, and strange locations, ideal for analog-style images.</a>
-    </p>
-    <button onclick="generatePrompt()">Generar Prompt</button>
-    <div class="output">
-      <span id="prompt-text"></span>
-      <span class="copy-btn" onclick="copyPrompt()">copy</span>
+  <div class="container">
+    <img src="robot_butterfly_header.jpg" alt="Header Robot" class="header-image" />
+    <div class="text-section">
+      <p class="main-text">
+        Genera frases aleatorias para fotografía surrealista y cool, combinando personajes extraños, acciones absurdas y locaciones inusuales, ideal para imágenes de estilo análogo.
+      </p>
+      <p class="highlighted-text">
+        <em>Generates random surreal and cool photography prompts combining bizarre characters, odd actions, and strange locations, ideal for analog-style images.</em>
+      </p>
     </div>
-  </main>
+    <button id="generateBtn">Generar Prompt</button>
+    <div class="output-box">
+      <span id="prompt-text">Aquí aparecerá tu prompt...</span>
+      <button id="copyBtn">COPY</button>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
