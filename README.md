@@ -35,7 +35,8 @@ Simplemente:
 
 ## 🔗 Acceso directo
 
-👉 [Lanzar el generador WeirdCool](https://tusuario.github.io/weirdcool/)
+👉 [Lanzar el generador WeirdCool]([https://tusuario.github.io/weirdcool/](https://diegotecuenta.github.io/weirdcool/
+))
 
 
 ---
