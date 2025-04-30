@@ -33,6 +33,13 @@ Simplemente:
 
 ---
 
+## 🔗 Acceso directo
+
+👉 [Lanzar el generador WeirdCool](https://tusuario.github.io/weirdcool/)
+
+
+---
+
 ## 👨‍💻 Creado por
 
 [Diego Tecuenta](https://github.com/diegotecuenta)  
