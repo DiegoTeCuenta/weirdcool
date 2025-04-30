@@ -1,53 +1,43 @@
 
 # 🎲 WeirdCool Prompt Generator
 
-Este proyecto genera frases surrealistas para fotografía creativa usando combinaciones aleatorias de **personajes extraños**, **acciones absurdas** y **locaciones inusuales**.
+Bienvenido a **WeirdCool**, un generador de frases surrealistas para fotografía creativa, arte visual y juegos mentales.
 
 ---
 
-## 🚀 ¿Cómo funciona?
+## 🚀 ¿Qué hace esto?
 
-Al hacer clic en el botón **"Generar Prompt"**, el sitio:
-- Carga los datos desde un archivo externo llamado `weirdcool_data.json`
-- Escoge un sujeto, una acción y una locación al azar
-- Muestra la combinación con estilo cinematográfico para inspiración visual
+Cada vez que haces clic en el botón **"Generar Prompt"**, obtendrás una frase como esta:
 
----
+> A punk teenager with holographic tattoos whispering to statues in a flooded church, cinematic lighting, film grain, analog photo, slightly overexposed, soft contrast, rich color tones.
 
-## 🧠 Personaliza tus combinaciones
-
-Puedes editar el archivo [`weirdcool_data.json`](weirdcool_data.json) para crear tus propios universos raros.
-
-El archivo contiene tres listas:
-```json
-{
-  "subjects": [ "una mujer en vestido de humo", "un anciano con ojos de fuego", ... ],
-  "actions": [ "bailando bajo la lluvia", "gritando a través del espejo", ... ],
-  "locations": [ "en una azotea flotante", "dentro de una iglesia inundada", ... ]
-}
-```
-
-🔁 El generador tomará una entrada de cada lista y formará frases nuevas cada vez.
+Estas combinaciones han sido diseñadas para inspirar escenas visuales absurdas, cinematográficas y bellamente extrañas.
 
 ---
 
-## ✏️ ¿Cómo editar el JSON?
+## 🧠 ¿Para qué sirve?
 
-1. Abre `weirdcool_data.json` directamente en GitHub o en tu editor de texto.
-2. Agrega o cambia los elementos dentro de cada lista (entre comillas y separados por comas).
-3. Guarda y actualiza tu sitio. ¡Listo!
-
----
-
-## 💡 Ejemplo de prompt generado
-
-> A goth girl holding a fishbowl full of stars dancing through time on a floating highway, cinematic lighting, film grain, analog photo, slightly overexposed, soft contrast, rich color tones.
+- Generar ideas para imágenes estilo análogo  
+- Inspirar escritura creativa o dibujo surrealista  
+- Explorar combinaciones raras y divertidas  
+- Romper bloqueos creativos
 
 ---
 
-## 🎨 Créditos
+## 🎮 ¿Qué puedes hacer?
 
-Hecho por [@diegotecuenta](https://github.com/diegotecuenta)  
-Inspirado en la locura, el arte, la fotografía analógica y los sueños lúcidos.
+Simplemente:
+1. Entra al sitio.
+2. Haz clic en “Generar Prompt”.
+3. Copia tu frase favorita y dale vida en el medio que quieras.
 
 ---
+
+## 👨‍💻 Creado por
+
+[Diego Tecuenta](https://github.com/diegotecuenta)  
+Amante de lo extraño, lo análogo y los mundos imposibles.
+
+---
+
+_Disfruta el caos controlado._
