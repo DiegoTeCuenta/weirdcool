@@ -1,49 +1,53 @@
+
 # 🎲 WeirdCool Prompt Generator
 
-Generador aleatorio de frases para fotografía surrealista, artística y de estilo analógico, ideal para inspirar imágenes en herramientas como Sora, Midjourney o Stable Diffusion.
-
-Este generador mezcla personajes extraños, acciones absurdas y locaciones inusuales en inglés, combinadas con una descripción de estilo cinematográfico y analógico.  
-🚀 ¡Con más de **27,000 combinaciones posibles** de prompts!
+Este proyecto genera frases surrealistas para fotografía creativa usando combinaciones aleatorias de **personajes extraños**, **acciones absurdas** y **locaciones inusuales**.
 
 ---
 
-## 🌐 Versión en línea
+## 🚀 ¿Cómo funciona?
 
-Puedes usarlo directamente aquí:  
-[https://diegotecuenta.github.io/weirdcool/](https://diegotecuenta.github.io/weirdcool/)
-
----
-
-## 🛠 Cómo funciona
-
-Cada clic en “Generar Prompt” combina:
-
-- Un sujeto surrealista  
-- Una acción absurda  
-- Un entorno o locación irreal  
-- + Estética: cinematic lighting, analog film grain, rich tones...
-
-También puedes escribir tus propias ideas en los campos personalizables y generar tu propio prompt con ese mismo formato visual.
+Al hacer clic en el botón **"Generar Prompt"**, el sitio:
+- Carga los datos desde un archivo externo llamado `weirdcool_data.json`
+- Escoge un sujeto, una acción y una locación al azar
+- Muestra la combinación con estilo cinematográfico para inspiración visual
 
 ---
 
-## 🧪 Ideal para
+## 🧠 Personaliza tus combinaciones
 
-- Generar prompts para IA de imagen o video  
-- Inspiración creativa en diseño gráfico o escritura  
-- Proyectos artísticos conceptuales  
+Puedes editar el archivo [`weirdcool_data.json`](weirdcool_data.json) para crear tus propios universos raros.
+
+El archivo contiene tres listas:
+```json
+{
+  "subjects": [ "una mujer en vestido de humo", "un anciano con ojos de fuego", ... ],
+  "actions": [ "bailando bajo la lluvia", "gritando a través del espejo", ... ],
+  "locations": [ "en una azotea flotante", "dentro de una iglesia inundada", ... ]
+}
+```
+
+🔁 El generador tomará una entrada de cada lista y formará frases nuevas cada vez.
 
 ---
 
-## 📦 Estructura del proyecto
+## ✏️ ¿Cómo editar el JSON?
 
-- `index.html` – Contenido y estructura de la app  
-- `style.css` – Estilos claros y oscuros con toggle  
-- `script.js` – Lógica para generar y copiar prompts  
-- ✍️ Campo opcional para generar tu propio prompt personalizado
+1. Abre `weirdcool_data.json` directamente en GitHub o en tu editor de texto.
+2. Agrega o cambia los elementos dentro de cada lista (entre comillas y separados por comas).
+3. Guarda y actualiza tu sitio. ¡Listo!
 
 ---
 
-## 💡 Autor
+## 💡 Ejemplo de prompt generado
 
-Creado por [DiegoTeCuenta](https://github.com/DiegoTeCuenta)
+> A goth girl holding a fishbowl full of stars dancing through time on a floating highway, cinematic lighting, film grain, analog photo, slightly overexposed, soft contrast, rich color tones.
+
+---
+
+## 🎨 Créditos
+
+Hecho por [@diegotecuenta](https://github.com/diegotecuenta)  
+Inspirado en la locura, el arte, la fotografía analógica y los sueños lúcidos.
+
+---
