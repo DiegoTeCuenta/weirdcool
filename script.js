@@ -1,25 +1,53 @@
 
 const subjects = [
-  "A jellyfish", "A robot", "A tiger", "A ghost", "A phoenix", "A raccoon", "A violin", "A snail",
-  "A frog prince", "A glowing astronaut", "A llama in a suit", "A ballerina skeleton", "A plant with eyes",
-  "A cat with 3 tails", "A cake-shaped UFO"
+  "A black man dressed as a police officer wearing clown pants",
+  "An old woman with a third eye and golden teeth",
+  "A punk teenager with holographic tattoos",
+  "A baby in a business suit floating midair",
+  "A woman in a wedding dress made of smoke",
+  "A bodybuilder with butterfly wings and high heels",
+  "A goth girl holding a fishbowl full of stars",
+  "A blind man playing a piano on fire",
+  "A street vendor with a mechanical arm and balloons",
+  "A boy with a TV for a head",
+  "A tired office worker with a glowing spine",
+  "An astronaut with dreadlocks in a tutu",
+  "A soldier crying glitter",
+  "A samurai made of mirrors",
+  "A female cyborg wearing vintage 1940s fashion",
+  "A drag queen with robotic limbs and angel wings",
+  "A young Latino skater boy with four eyes",
+  "An elder monk made of sand",
+  "A girl with no face but glowing hands",
+  "A smiling mortician in a pink tuxedo",
+  "A man with a birdcage instead of a torso",
+  "A child riding a cloud shaped like a dragon",
+  "A hooded figure made entirely of butterflies",
+  "A female firefighter covered in vines",
+  "A mailman with octopus legs"
 ];
 
 const actions = [
-  "juggling stars", "drinking tea", "flying upside down", "riding a bicycle", "baking cupcakes",
-  "swimming in a pool of marshmallows", "floating in a soap bubble", "sipping coffee", "dancing with shadows",
-  "reading invisible books", "painting the sky", "whistling symphonies", "arguing with mirrors",
-  "collecting dreams", "skipping through portals", "balancing planets", "melting clocks", "sewing clouds",
-  "spinning reality", "translating moonlight", "building thoughts", "brushing fog", "kissing comets",
-  "combing thunder", "murmuring prophecies"
+  "juggling memories", "dancing through time", "arguing with ghosts",
+  "playing chess with shadows", "reading a book made of fog",
+  "eating dreams with a spoon", "skating on clouds", "sewing invisible clothes",
+  "painting emotions on walls", "screaming into jars", "watering plants made of fire",
+  "floating backward", "taming lightning", "singing in Morse code",
+  "teleporting between mirrors", "whistling storms", "combing the wind",
+  "balancing soap bubbles", "whispering to statues", "knitting galaxies",
+  "riding a bike made of bones", "drinking moonlight", "charging a smartphone with laughter",
+  "yelling at floating clocks", "doing yoga with shadows"
 ];
 
 const locations = [
-  "on a neon-lit bridge", "in the middle of a mirror maze", "in a melted city", "through a moonlit forest",
-  "on Mars", "inside a ticking clock", "on a foggy alleyway", "in a cathedral", "at the bottom of a lava lake",
-  "inside a snow globe", "in a room where gravity breaks", "under a rain of candy", "in a floating library",
-  "beneath an aurora", "on a deserted carnival", "on top of a cloud pyramid", "in a surreal metro station",
-  "in a looped dimension", "on a holographic highway", "inside a dreaming whale"
+  "on a floating highway", "in an abandoned shopping mall", "at the bottom of a lake of feathers",
+  "on the roof of a moving train", "inside a never-ending hallway", "beneath a frozen waterfall",
+  "on a deserted film set", "in a room that breathes", "inside a glass elevator going sideways",
+  "on a balcony over a jungle of eyes", "in a supermarket during a snowstorm",
+  "on a subway full of mannequins", "in a flooded church", "under a giant disco ball in the desert",
+  "in a laundromat on Mars", "on a playground that defies gravity", "in a karaoke bar run by ghosts",
+  "on a cloud shaped like a hand", "in a basement with shifting walls",
+  "on a spiral staircase that never ends"
 ];
 
 function getRandomItem(array) {
