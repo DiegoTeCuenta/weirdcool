@@ -13,7 +13,7 @@ document.getElementById("generateBtn").addEventListener("click", async () => {
   const subject = getRandomItem(data.subjects);
   const action = getRandomItem(data.actions);
   const location = getRandomItem(data.locations);
-  const prompt = `${subject} ${action} ${location}, cinematic lighting, film grain, analog photo, slightly overexposed, soft contrast, rich color tones.`;
+  const prompt = `${subject} ${action} ${location}, cinematic, film grain, polaroid, slightly overexposed, soft contrast, rich color tones.`;
   document.getElementById("prompt-text").innerText = prompt;
 });
 
